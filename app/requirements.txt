@@ -45,7 +45,7 @@ pytrends==4.6.0
 pytz==2018.9
 PyYAML==5.1.1
 ratelim==0.1.6
-requests==2.17.1
+requests==2.20.0
 requests-oauthlib==1.2.0
 rsa==4.0
 simplejson==3.16.0
