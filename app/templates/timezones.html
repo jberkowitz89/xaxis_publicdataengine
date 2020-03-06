@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Xaxis Public Data Engine - Timezones</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel=stylesheet type=text/css href='{{ url_for('static',filename='main3.css')}}'>
+		<style>
+		.wrapper.style3 {
+			background-color: #d3d3d3;
+			color: #bfbfbf;
+			background-image: url('static/images/time.jpg');
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+			position: relative;
+		}
+	</style>
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="/start"><span>Go Back</span></a> ---- <a href="/logout"><span>Logout</span></a></div>
+			</header>
+
+		<!-- Nav -->
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Transform your UTC timestamp into local time</p>
+						<h2>Match your geocoordinates to a timezone</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+							<header class="align-center">
+								<h2>Using latitude and longitude values, we identify your timezone and append your local timestamp. </h2>
+							</header>
+							        
+        <h3> 
+        	Add your CSV file below and hit "Submit".</h3>
+        	<h3> Please ensure that you have a "timestamp" column and "latitude" and "longitude" columns present in your data.</h3><h3> Your data will be appended with columns for the local timezone and local time.</h3>
+        <h3> Once the API call has been completed and your data has been updated, your file will download automatically.</h3>
+
+        <form action="/timezones" method="post" enctype="multipart/form-data">
+            <label class="custom-file-upload">
+    <input type="file" name="timezone_file"/>
+    <i class="fa fa-cloud-upload"></i> Upload Conversion CSV
+</label>
+<br>
+<br>
+            <input type="submit" />
+        </form>
+    </body>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

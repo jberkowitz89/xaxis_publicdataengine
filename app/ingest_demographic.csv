@@ -1,0 +1,11 @@
+Conversion Region,Conversion Monetary Value Currency,Conversion Monetary Value,Conversion Metro Name,Conversion Country,Conversion City,time_string,address,latitude,longitude,zipcode
+Texas,USD,9.5,Dallas-Ft. Worth TX,United States,Mesquite,2019-01-08T14:14:00Z,Dallas-Ft. Worth TX Mesquite,32.75094986,-97.33085632,76102
+Texas,USD,24.7,Houston TX,United States,Houston,2019-01-11T21:11:00Z,Houston TX Houston,29.76058006,-95.36968231,77002
+Texas,USD,32.97,Houston TX,United States,Houston,2019-01-13T21:57:00,Houston TX Houston,29.76058006,-95.36968231,77002
+Colorado,USD,16.48,Denver CO,United States,Denver,2019-01-07T19:24:00,Denver CO Denver,39.74000931,-104.9920197,80204
+Colorado,USD,21,Denver CO,United States,Denver,2019-01-11T17:25:00,Denver CO Denver,39.74000931,-104.9920197,80204
+Minnesota,USD,14.95,Minneapolis-St. Paul MN,United States,Minneapolis,2019-01-12T20:23:00,Minneapolis-St. Paul MN Minneapolis,44.8824501,-93.20572662,55111
+California,USD,33.7,Los Angeles CA,United States,Thousand Oaks,2019-01-15T23:37:00,Los Angeles CA Thousand Oaks,34.05348969,-118.2453232,90012
+California,USD,75.34,San Francisco-Oakland-San Jose CA,United States,San Carlos,2019-01-08T16:08:00,San Francisco-Oakland-San Jose CA San Carlos,37.33864975,-121.8854218,95112
+California,USD,19.95,San Francisco-Oakland-San Jose CA,United States,Palo Alto,2019-01-08T18:55:00,San Francisco-Oakland-San Jose CA Palo Alto,37.33864975,-121.8854218,95112
+California,USD,30.98,Sacramento-Stockton-Modesto CA,United States,Roseville,2019-01-14T19:51:00,Sacramento-Stockton-Modesto CA Roseville,37.64154816,-121.0034637,95354

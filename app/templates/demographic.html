@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Xaxis Public Data Engine - Demographics</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel=stylesheet type=text/css href='{{ url_for('static',filename='main3.css')}}'>
+		<style>
+		.wrapper.style3 {
+			background-color: #d3d3d3;
+			color: #bfbfbf;
+			background-image: url('static/images/demographic.jpg');
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+			position: relative;
+		}
+	</style>
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="/start"><span>Go Back</span></a> ---- <a href="/logout"><span>Logout</span></a></div>
+			</header>
+
+		<!-- Nav -->
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Access up-to-date Census data</p>
+						<h2>Get demographic insights at the zipcode level</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+							<header class="align-center">
+								<h2>Dig into your customer's neighbourhoods and communities</h2>
+							</header>
+							        
+        <h3> 
+        	Add your CSV or Excel file below and hit "Submit"</h3>
+        	<h3> Please ensure that you have a "zipcode" column present in your dataset.</h3><h3> Your data will be appended with the corresponding demographic datapoints such average income, average house price, and population density. This is still a work in progress; more in-depth data points at the zipcode level as well as international data sources to be added soon.</h3>
+        <h3> Once the API call has been completed and your data has been updated, your file will download automatically.</h3>
+
+        <form action="/demographic" method="post" enctype="multipart/form-data">
+            <label class="custom-file-upload">
+    <input type="file" name="data_file"/>
+    <i class="fa fa-cloud-upload"></i> Upload File
+</label>
+
+
+<br>
+<br>
+            <input type="submit" />
+        </form>
+    </body>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Xaxis. All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

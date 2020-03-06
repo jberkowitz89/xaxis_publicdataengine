@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Xaxis Public Data Engine - Search Trends</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel=stylesheet type=text/css href='{{ url_for('static',filename='main3.css')}}'>
+		<style>
+		.wrapper.style3 {
+			background-color: #d3d3d3;
+			color: #bfbfbf;
+			background-image: url('static/images/trends.jpg');
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+			position: relative;
+		}
+	</style>
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="/start"><span>Go Back</span></a> ---- <a href="/logout"><span>Logout</span></a></div>
+
+			</header>
+
+		<!-- Nav -->
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Curious what people are searching for?</p>
+						<h2>Get Google Search trends over time</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+							<header class="align-center">
+								<h2>Track keyword search interest</h2>
+							</header>
+							        
+  <div class=metanav>
+    <h4>
+    Enter your keyword and your two-letter market abbreviation to collect trends data over the past five years.
+    </h4>
+
+    <form id='trends_info' method='post' action='trends' >
+      <p>
+    Keyword: <input type='text' name='keyword' />
+      </p>
+      <p>
+    Market: <input type='text' name='market' />
+      </p>
+      <p>
+    <input type='submit' value='Submit' />
+
+    <form id='back' method='post' action='/' >
+
+    </form>
+
+  </div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Xaxis. All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
