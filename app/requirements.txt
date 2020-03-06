@@ -61,6 +61,6 @@ utils==0.9.0
 virtualenv==16.7.2
 watson-developer-cloud==2.8.0
 websocket-client==0.48.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 WTForms==2.2.1
 xlrd==1.2.0
